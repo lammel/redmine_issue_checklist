@@ -1,6 +1,5 @@
 require 'redmine'
-
-require 'redmine_issue_checklist/redmine_issue_checklist'
+require File.dirname(__FILE__) + '/lib/redmine_issue_checklist'
 
 Redmine::Plugin.register :redmine_issue_checklist do
   name 'Redmine Issue Checklist Plugin'
